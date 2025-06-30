@@ -1,4 +1,5 @@
-﻿using System;
+using System;
+using System.Drawing;
 using System.IO;
 using System.Windows.Forms;
 
@@ -28,21 +29,30 @@ namespace cadastroInsano
 
         private void DepositarBTN_Click(object sender, EventArgs e)
         {
+            string teste = DepositoTXT.Text;
+            if (teste.Contains(".")) 
+            {
+                MessageBox.Show("Não pode.");
+                DepositoTXT.Clear();
+                Atualizar();
+            }
+
             // Declaração da variável de valor a ser depositado
             decimal valor;
-
             /* "Se a tentaiva de converter o que foi inserido em DepositoTXT for bem sucedida, 
              o valor convertido será atribuido a variável valor ...*/
             if (decimal.TryParse(DepositoTXT.Text, out valor) && valor > 0 && valor % 10 == 0)
             {
-                saldo += valor;
+    
+
+                saldo += valor; // saldo = saldo + valor;
                 MessageBox.Show("Depósito feito com sucesso!");
                 Atualizar();
                 DepositoTXT.Clear();
             }
             else
             {
-                MessageBox.Show("Digite um valor válido (múltiplo de 10).");
+                MessageBox.Show("Digite um valor válido (múltiplo de 10 e sem caracteres).");
             }
         }
 
@@ -59,7 +69,7 @@ namespace cadastroInsano
 
                 int restante = (int)valor;
 
-                int usar100 = Math.Min(restante / 100, notas100); 
+                int usar100 = Math.Min(restante / 100, notas100);
                 restante -= usar100 * 100;
 
                 int usar50 = Math.Min(restante / 50, notas50);
@@ -80,6 +90,8 @@ namespace cadastroInsano
                     notas10 -= usar10;
 
                     MessageBox.Show($"Saque de R$ {valor} feito com sucesso!\nNotas entregues:\n100: {usar100}, 50: {usar50}, 20: {usar20}, 10: {usar10}");
+
+                    Atualizar();
 
                     string nomeArquivo = $"comprovante_{DateTime.Now.Ticks}.txt";
                     string conteudo = $"Saque de R$ {valor} em {DateTime.Now}\n" +
