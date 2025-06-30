@@ -99,6 +99,7 @@ namespace cadastroInsano
                     MessageBox.Show($"Saque de R$ {valor} feito com sucesso!\nNotas entregues:\n100: {usar100}, 50: {usar50}, 20: {usar20}, 10: {usar10}");
 
                     Atualizar();
+                    SaqueTXT.Clear();
 
                     string nomeArquivo = $"comprovante_{DateTime.Now.Ticks}.txt";
                     string conteudo = $"Saque de R$ {valor} em {DateTime.Now}\n" +
