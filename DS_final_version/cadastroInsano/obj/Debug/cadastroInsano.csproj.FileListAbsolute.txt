@@ -1,0 +1,32 @@
+C:\Users\Alunos\Downloads\insanos\cadastroInsano\cadastroInsano\bin\Debug\cadastroInsano.exe.config
+C:\Users\Alunos\Downloads\insanos\cadastroInsano\cadastroInsano\bin\Debug\cadastroInsano.exe
+C:\Users\Alunos\Downloads\insanos\cadastroInsano\cadastroInsano\bin\Debug\cadastroInsano.pdb
+C:\Users\Alunos\Downloads\insanos\cadastroInsano\cadastroInsano\obj\Debug\cadastroInsano.csproj.AssemblyReference.cache
+C:\Users\Alunos\Downloads\insanos\cadastroInsano\cadastroInsano\obj\Debug\cadastroInsano.Form1.resources
+C:\Users\Alunos\Downloads\insanos\cadastroInsano\cadastroInsano\obj\Debug\cadastroInsano.Properties.Resources.resources
+C:\Users\Alunos\Downloads\insanos\cadastroInsano\cadastroInsano\obj\Debug\cadastroInsano.csproj.GenerateResource.cache
+C:\Users\Alunos\Downloads\insanos\cadastroInsano\cadastroInsano\obj\Debug\cadastroInsano.csproj.CoreCompileInputs.cache
+C:\Users\Alunos\Downloads\insanos\cadastroInsano\cadastroInsano\obj\Debug\cadastroInsano.exe
+C:\Users\Alunos\Downloads\insanos\cadastroInsano\cadastroInsano\obj\Debug\cadastroInsano.pdb
+D:\DS ETEC\DSI\cadastroInsano\cadastroInsano\bin\Debug\cadastroInsano.exe.config
+D:\DS ETEC\DSI\cadastroInsano\cadastroInsano\bin\Debug\cadastroInsano.exe
+D:\DS ETEC\DSI\cadastroInsano\cadastroInsano\bin\Debug\cadastroInsano.pdb
+D:\DS ETEC\DSI\cadastroInsano\cadastroInsano\obj\Debug\cadastroInsano.csproj.AssemblyReference.cache
+D:\DS ETEC\DSI\cadastroInsano\cadastroInsano\obj\Debug\cadastroInsano.exe.config
+D:\DS ETEC\DSI\cadastroInsano\cadastroInsano\obj\Debug\cadastroInsano.Form1.resources
+D:\DS ETEC\DSI\cadastroInsano\cadastroInsano\obj\Debug\cadastroInsano.Properties.Resources.resources
+D:\DS ETEC\DSI\cadastroInsano\cadastroInsano\obj\Debug\cadastroInsano.csproj.GenerateResource.cache
+D:\DS ETEC\DSI\cadastroInsano\cadastroInsano\obj\Debug\cadastroInsano.csproj.CoreCompileInputs.cache
+D:\DS ETEC\DSI\cadastroInsano\cadastroInsano\obj\Debug\cadastroInsano.exe
+D:\DS ETEC\DSI\cadastroInsano\cadastroInsano\obj\Debug\cadastroInsano.pdb
+C:\Users\Gabri\TESTE\CAIxAInNAno\cadastroInsano\bin\Debug\cadastroInsano.exe.config
+C:\Users\Gabri\TESTE\CAIxAInNAno\cadastroInsano\bin\Debug\cadastroInsano.exe
+C:\Users\Gabri\TESTE\CAIxAInNAno\cadastroInsano\bin\Debug\cadastroInsano.pdb
+C:\Users\Gabri\TESTE\CAIxAInNAno\cadastroInsano\obj\Debug\cadastroInsano.csproj.AssemblyReference.cache
+C:\Users\Gabri\TESTE\CAIxAInNAno\cadastroInsano\obj\Debug\cadastroInsano.exe.config
+C:\Users\Gabri\TESTE\CAIxAInNAno\cadastroInsano\obj\Debug\cadastroInsano.Form1.resources
+C:\Users\Gabri\TESTE\CAIxAInNAno\cadastroInsano\obj\Debug\cadastroInsano.Properties.Resources.resources
+C:\Users\Gabri\TESTE\CAIxAInNAno\cadastroInsano\obj\Debug\cadastroInsano.csproj.GenerateResource.cache
+C:\Users\Gabri\TESTE\CAIxAInNAno\cadastroInsano\obj\Debug\cadastroInsano.csproj.CoreCompileInputs.cache
+C:\Users\Gabri\TESTE\CAIxAInNAno\cadastroInsano\obj\Debug\cadastroInsano.exe
+C:\Users\Gabri\TESTE\CAIxAInNAno\cadastroInsano\obj\Debug\cadastroInsano.pdb
