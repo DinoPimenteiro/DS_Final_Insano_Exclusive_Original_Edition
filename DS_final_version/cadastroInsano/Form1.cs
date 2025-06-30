@@ -43,7 +43,6 @@ namespace cadastroInsano
              o valor convertido será atribuido a variável valor ...*/
             if (decimal.TryParse(DepositoTXT.Text, out valor) && valor > 0 && valor % 10 == 0)
             {
-    
 
                 saldo += valor; // saldo = saldo + valor;
                 MessageBox.Show("Depósito feito com sucesso!");
@@ -58,6 +57,14 @@ namespace cadastroInsano
 
         private void SacarBTN_Click(object sender, EventArgs e)
         {
+            string teste = SaqueTXT.Text;
+            if (teste.Contains("."))
+            {
+                MessageBox.Show("Não pode.");
+                SaqueTXT.Clear();
+                Atualizar();
+            }
+
             decimal valor;
             if (decimal.TryParse(SaqueTXT.Text, out valor) && valor > 0 && valor % 10 == 0)
             {
@@ -151,6 +158,11 @@ namespace cadastroInsano
         private void saberTXT_Click(object sender, EventArgs e)
         {
             saberTXT.Text = "Exclusivo: Existe somente este de original, o resto é cópia.";
+        }
+
+        private void SaqueTXT_TextChanged(object sender, EventArgs e)
+        {
+
         }
 
         private void DepositoTXT_TextChanged(object sender, EventArgs e)
